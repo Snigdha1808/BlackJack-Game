@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black-Jack Game</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Black Jack</h1>
+        <p id="message-el">Want to play around?</p>
+        <p id="cards-el">Cards: </p>
+        <p id="sum-el">Sum: </p>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="newCard()">New Card</button>
+        <p id="player-el"></p>
+        <img class="card-img" src="cards logo.png">
+        <p>Rules:<br>
+           1. You get a Black jack if the sum of cards is 21<br>
+           2. You get to draw a card if the sum of cards is less than 21<br>
+           3. You cannot continue the game if the sum of cards is greater than 21<br>
+        </p>
+        <script src="index.js"></script>
+    </body>
+</html>
